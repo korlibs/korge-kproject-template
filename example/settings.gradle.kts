@@ -5,6 +5,9 @@ plugins {
     id("com.soywiz.kproject.settings") version "0.1.2"
 }
 
-rootProject.name = "korge-kproject-template-example"
+
+rootProject.name = "${rootDir.parentFile.name}-example"
+
+//println("rootProject.name=${rootProject.name}")
 
 kproject("./deps")
