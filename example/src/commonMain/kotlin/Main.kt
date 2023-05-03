@@ -1,6 +1,6 @@
-import com.soywiz.korge.*
-import com.soywiz.korge.scene.*
-import com.soywiz.korge.view.*
+import korlibs.korge.*
+import korlibs.korge.scene.*
+import korlibs.korge.view.*
 import org.korge.samples.mymodule.*
 
 suspend fun main() = Korge {
